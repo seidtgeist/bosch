@@ -1,0 +1,3 @@
+function pint() {
+  find . -iname "*$@*" | ag --color -i "$@" | less
+}
