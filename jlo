@@ -1,0 +1,3 @@
+function jlo() {
+  curl -s $* | jsonpp | jazz -l json
+}
